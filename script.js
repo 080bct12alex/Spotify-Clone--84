@@ -64,7 +64,12 @@ async function displayAlbums() {
     
     // Example album structure (if needed, you can manually add albums)
     let albums = [
-        { folder: "ncs", title: "NCS Playlist", description: "Best of NoCopyrightSounds", cover: "songs/ncs/cover.jpg" }
+        { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" },
+        { folder: "HappyHits", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/HappyHits/cover.jpg" },
+
+        { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" }
+
+
     ];
 
     albums.forEach(album => {
