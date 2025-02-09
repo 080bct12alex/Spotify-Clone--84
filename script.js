@@ -88,6 +88,10 @@ async function displayAlbums() {
 
     ];
 
+    console.log(`Total albums to display: ${albums.length}`);
+
+    cardContainer.innerHTML = ""; // Clear existing content
+
     albums.forEach(album => {
         cardContainer.innerHTML += `
             <div data-folder="${album.folder}" class="card">
@@ -101,6 +105,19 @@ async function displayAlbums() {
                 <p>${album.description}</p>
             </div>
         `;
+    });
+
+    console.log("Albums rendered successfully!");
+
+    // Attach event listeners
+    document.querySelectorAll(".card").forEach(e => {
+        e.addEventListener("click", async () => {
+            console.log(`Loading songs for: ${e.dataset.folder}`);
+            await getSongs();
+            if (songs.length > 0) {
+                playMusic(songs[0]);
+            }
+        });
     });
 
     // Load playlist on card click
