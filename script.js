@@ -66,8 +66,7 @@ async function displayAlbums() {
     let albums = [
         { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" },
         { folder: "HappyHits", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/HappyHits/cover.jpg" },
-
-        { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" }
+      { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" }
 
 
     ];
