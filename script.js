@@ -29,7 +29,7 @@ async function getSongs() {
                 <img class="invert" width="34" src="img/music.svg" alt="">
                 <div class="info">
                     <div>${song.replaceAll("%20", " ")}</div>
-                    <div>Harry</div>
+                    <div>ALEX</div>
                 </div>
                 <div class="playnow">
                     <span>Play Now</span>
@@ -66,7 +66,24 @@ async function displayAlbums() {
     let albums = [
         { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" },
         { folder: "HappyHits", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/HappyHits/cover.jpg" },
-      { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" }
+        { folder: "Uplifting_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Uplifting_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Funky_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Funky_(mood)/cover.jpg" },
+        { folder: "Dark_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Dark_(mood)/cover.jpg" },
+        { folder: "Chill_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Chill_(mood)/cover.jpg" },
+        { folder: "Bright_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Bright_(mood)/cover.jpg" },
+        { folder: "Angry_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Angry_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "Love_(mood)", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/Love_(mood)/cover.jpg" },
+        { folder: "lofi", title: "Alex Playlist", description: "Best of NoCopyrightSounds", cover: "songs/lofi/cover.jpg" }
+
 
 
     ];
